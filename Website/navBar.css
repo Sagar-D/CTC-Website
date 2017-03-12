@@ -1,0 +1,105 @@
+body{
+                margin: 0px;
+                padding: 10px;
+				overflow-y: scroll;
+				font-family: Arial;
+				font-size: 18px;
+                background-color: #ffffff;           
+}
+ 
+header h1{
+                text-align: center;
+                margin: 0px;
+                padding: 20px;
+                font-size: 44px;
+                font-weight: bold;
+				font-family: Tahoma Arial;
+                color: #d11237;
+                background-color: #ffffff;
+				
+               
+}
+
+#nav{
+	
+				background-color: #d11237;
+				
+				
+}
+
+#nav_wrapper{
+				
+				margin: 0;
+				text-align: left;
+				position: relative;
+				z-index:10;
+}
+
+#nav ul{
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				position: relative;
+}
+
+#nav ul li{
+				
+				
+}
+
+#nav ul li:hover{
+				background-color: #d11237;
+}
+
+.navbar-brand{
+				color: #ffffff;
+				display: block;
+				padding: 15px;
+				text-decoration: none;
+}
+
+#nav ul li a,visited{
+				color: #ffffff;
+				display: block;
+				padding: 15px;
+				text-decoration: none;
+
+}
+
+#nav ul li a{
+	
+				
+	
+}
+
+#nav ul li a:hover{
+				color: #ccc;
+				text-decoration: none;
+}
+
+#nav ul li:hover ul{
+				display: block;
+}
+
+#nav ul ul{
+				display: none;
+				position: absolute;
+				background-color: #d11237;
+}
+
+#nav ul ul li{
+				display: block;
+				min-width: 200px;
+}
+
+#nav ul ul li a:hover{
+	
+				background-color: #d11237;
+}
+
+
+
+
+.navbar-toggle .icon-bar{ background-color: #fff;}
+
+
